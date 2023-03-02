@@ -1,0 +1,35 @@
+#numInput {
+  margin: 25px;
+  display: flex;
+  width: fit-content;
+}
+
+.focused.valid {
+  border: 2px solid rgb(123, 104, 238);
+}
+
+.non-focused.valid {
+  border: 2px solid gray;
+}
+
+.focused.invalid {
+  border: 2px solid rgb(250, 128, 114);
+}
+
+.non-focused.invalid {
+  border: 2px solid rgba(250, 128, 114, 0.5);
+}
+
+#input {
+  border-style: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+#result {
+  height: 30px;
+  min-width: 100px;
+  background-color: rgb(230, 230, 230);
+  font-size: 24px;
+  text-align: center;
+}
